@@ -1,0 +1,16 @@
+{
+    "token": "",
+    "support": {
+        "roleID": "",
+        "guildID": "",
+        "channel": {
+            "id": "",
+            "name": "",
+            "reactMessageID": ""
+        },
+        "settings": {
+            "everyoneCanCreateSupportTicket": "",
+            "roleCanCreateSupportTicket": ""
+        }
+    }
+}
