@@ -5,6 +5,7 @@ const { Client, WebhookClient, RichEmbed } = require('discord.js'),
       yardimciOlduMuMesaj = "\n\nBu size yardımcı oldu mu?",
       client = new Client();
 
+// *TODO* Rewrite
 
 var channelsAndUsers = [];
 
