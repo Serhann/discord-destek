@@ -10,9 +10,8 @@ const { Client, WebhookClient, RichEmbed } = require('discord.js'),
 var channelsAndUsers = [];
 
 client.on('ready', async () => {
-    await makeChecks().then(async () => {
-        console.log(`${client.user.tag} (${client.user.id})`)
-    });
+    await makeChecks();
+    console.log(`${client.user.tag} (${client.user.id})`)
     await client.channels.get(channel.id).fetchMessage(channel.reactMessageID);
     //client.channels.get(channel.id).messages.get(channel.reactMessageID).react('➕');
 }); 
